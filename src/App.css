@@ -70,3 +70,35 @@ html, body, #root, .general-container{
     background-image: linear-gradient(to right, #0D978D, #85EE9C);
     border-radius: 10px;
 }
+
+/* Section container*/
+.section-container{
+    padding: 2em;
+}
+
+.section-container h2{
+    position: relative;
+}
+
+.section-container h2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 5px;
+    background-image: linear-gradient(to right, #38ADAD, #85EE9C);
+    border-radius: 10px;
+}
+
+.content-container{
+    padding: 2em;
+}
+
+.section-container h2{
+    margin: 0;
+}
+
+
+
+
