@@ -4,6 +4,7 @@ import SectionContainer from './components/SectionContainer';
 import EducationSection from './components/EducationSection';
 import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
+import WorkSection from './components/WorkSection';
 
 const SECTIONS = [{
     title: "Languages",
@@ -11,6 +12,9 @@ const SECTIONS = [{
 },{
     title: "Education",
     content: <EducationSection/> 
+},{
+    title: "Work Experience",
+    content: <WorkSection/>
 }
 ];
 

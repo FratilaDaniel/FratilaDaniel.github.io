@@ -4,11 +4,15 @@
 }
 
 html, body, #root, .general-container{
-    height: 100%;
+    min-height: 100%;
 } 
 
+#root{
+    border: 2px solid red;
+}
 .general-container{
     background-image: linear-gradient(#222323, #232828, #181A1A);
+    
     display: flex;
     flex-direction: column;
 }
@@ -125,8 +129,6 @@ html, body, #root, .general-container{
 
 /* Contact */
 .contact-container{
-    flex-grow: 0;
-    flex-shrink: 1;
     text-align: center;
 }
 
@@ -167,7 +169,27 @@ html, body, #root, .general-container{
 }
 
 .footer-container{
+    flex-grow: 0;
+    flex-shrink: 1;
     text-align: center;
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
+}
+
+
+
+/* Workplace */
+.work-container{
+    display: flex;
+}
+
+.workplace-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.workplace-container img{
+    width: 33%;
 }
