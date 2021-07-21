@@ -9,6 +9,13 @@ html, body, #root, .general-container{
 
 .general-container{
     background-image: linear-gradient(#222323, #232828, #181A1A);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sections */
+.sections-container{
+    flex-grow: 1;
 }
 
 .language-section-container{
@@ -80,7 +87,7 @@ html, body, #root, .general-container{
     position: relative;
 }
 
-.section-container h2::after{
+.section-container h2::after, .contact-container h2::after{
     content: "";
     position: absolute;
     top: 0;
@@ -114,4 +121,47 @@ html, body, #root, .general-container{
 
 .education-container .diploma-container, .year-container{
     font-size: 1.5em;
+}
+
+/* Contact */
+.contact-container{
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.contact-info-p{
+    font-size: 1.2rem;
+}
+
+.contact-info-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-li-img{
+    display: flex;
+}
+
+.arrow{
+    width: 0.7em;
+    margin: 0 15px;
+}
+
+.git-link-images-container{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+
+.contact-container h2{
+    position: relative;
+}
+
+.contact-container h2::after{
+    left: 43%;
+    right: 43%;
+    width: 14%;
 }

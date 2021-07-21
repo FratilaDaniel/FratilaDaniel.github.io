@@ -2,6 +2,7 @@ import './App.css';
 import LanguagesSection from './components/LanguagesSection';
 import SectionContainer from './components/SectionContainer';
 import EducationSection from './components/EducationSection';
+import ContactSection from './components/ContactSection';
 
 const SECTIONS = [{
     title: "Languages",
@@ -9,20 +10,23 @@ const SECTIONS = [{
 },{
     title: "Education",
     content: <EducationSection/> 
-},
+}
 ];
 
 function App() {
     return (
         <div className="general-container">
-            {SECTIONS.map( (section, index) => {
-                return (
-                    <SectionContainer
-                        key={index}
-                        title={section.title}
-                        content={section.content}
-                    />);
-            })}
+            <div className="sections-container">
+                {SECTIONS.map( (section, index) => {
+                    return (
+                        <SectionContainer
+                            key={index}
+                            title={section.title}
+                            content={section.content}
+                        />);
+                })}
+            </div>
+            <ContactSection/>
         </div>
     );
 }
