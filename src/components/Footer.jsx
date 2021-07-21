@@ -1,7 +1,7 @@
 
 function Footer(){
     return (
-        <footer className="contact-container">
+        <footer className="footer-container">
             ©{new Date().getFullYear()} Daniel Fratila
         </footer>
     );

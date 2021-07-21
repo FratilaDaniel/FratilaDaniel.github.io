@@ -3,6 +3,7 @@ import LanguagesSection from './components/LanguagesSection';
 import SectionContainer from './components/SectionContainer';
 import EducationSection from './components/EducationSection';
 import ContactSection from './components/ContactSection';
+import Footer from "./components/Footer";
 
 const SECTIONS = [{
     title: "Languages",
@@ -27,6 +28,7 @@ function App() {
                 })}
             </div>
             <ContactSection/>
+            <Footer/>
         </div>
     );
 }
