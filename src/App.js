@@ -5,6 +5,7 @@ import EducationSection from './components/EducationSection';
 import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
 import WorkSection from './components/WorkSection';
+import ProjectsSection from './components/ProjectsSection';
 
 const SECTIONS = [{
     title: "Languages",
@@ -15,6 +16,9 @@ const SECTIONS = [{
 },{
     title: "Work Experience",
     content: <WorkSection/>
+},{
+    title: "Projects",
+    content: <ProjectsSection/>
 }
 ];
 

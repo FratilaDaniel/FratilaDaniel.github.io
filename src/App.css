@@ -7,9 +7,6 @@ html, body, #root, .general-container{
     min-height: 100%;
 } 
 
-#root{
-    border: 2px solid red;
-}
 .general-container{
     background-image: linear-gradient(#222323, #232828, #181A1A);
     
@@ -193,3 +190,34 @@ html, body, #root, .general-container{
 .workplace-container img{
     width: 33%;
 }
+
+
+/* Projects */
+.projects-section{
+    position: relative;
+}
+/* 
+.bkg-img-1{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.bkg-img-2{
+    z-index: 1;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    margin-left: -5%;
+}
+
+.project-container{
+    border-radius: 10px;
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+
