@@ -6,17 +6,18 @@ import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
 import WorkSection from './components/WorkSection';
 import ProjectsSection from './components/ProjectsSection';
+import AboutMeSection from './components/AboutMeSection';
 
 const SECTIONS = [{
     title: "Languages",
     content: <LanguagesSection/> 
-},{
+}, {
     title: "Education",
     content: <EducationSection/> 
-},{
+}, {
     title: "Work Experience",
     content: <WorkSection/>
-},{
+}, {
     title: "Projects",
     content: <ProjectsSection/>
 }
@@ -25,6 +26,7 @@ const SECTIONS = [{
 function App() {
     return (
         <div className="general-container">
+            <AboutMeSection/>
             <div className="sections-container">
                 {SECTIONS.map( (section, index) => {
                     return (
