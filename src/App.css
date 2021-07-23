@@ -322,4 +322,18 @@ html, body, #root, .general-container{
     background-color: black;
 }
 
+.profession-container{
+    font-size: 2em;
+    margin-left: 35%;
+}
+
+.tag-container, .tag-container span{
+    color: #38ADAD;
+}
+
+.tag-container span{
+    position: relative;
+}
+
+
 
