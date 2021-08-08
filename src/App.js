@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import WorkSection from './components/WorkSection';
 import ProjectsSection from './components/ProjectsSection';
 import BannerSection from './components/BannerSection';
+import TechnologiesSection from './components/Technologies/TechnologiesSection';
 
 const SECTIONS = [{
     title: "Languages",
@@ -20,6 +21,9 @@ const SECTIONS = [{
 }, {
     title: "Projects",
     content: <ProjectsSection/>
+}, {
+    title: "Technologies",
+    content: <TechnologiesSection/>
 }
 ];
 
