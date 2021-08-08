@@ -1,0 +1,17 @@
+#education-container{
+    text-align: center;
+}
+
+#education-container img{
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
+
+#education-container .faculty-container{
+    font-size: 3em;
+}
+
+#education-container .diploma-container, .year-container{
+    font-size: 1.5em;
+}

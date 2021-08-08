@@ -108,21 +108,7 @@ html, body, #root, .general-container{
 }
 
 /* Education section */
-.education-container{
-    text-align: center;
-}
 
-.education-container img{
-    width: 500px;
-}
-
-.education-container .faculty-container{
-    font-size: 3em;
-}
-
-.education-container .diploma-container, .year-container{
-    font-size: 1.5em;
-}
 
 /* Contact */
 .contact-container{

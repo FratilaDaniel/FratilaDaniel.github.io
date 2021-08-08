@@ -1,7 +1,7 @@
 import './App.css';
 import LanguagesSection from './components/LanguagesSection';
 import SectionContainer from './components/SectionContainer';
-import EducationSection from './components/EducationSection';
+import EducationSection from './components/Education/EducationSection';
 import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
 import WorkSection from './components/WorkSection';
