@@ -6,7 +6,7 @@ import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
 import WorkSection from './components/WorkSection';
 import ProjectsSection from './components/ProjectsSection';
-import AboutMeSection from './components/AboutMeSection';
+import BannerSection from './components/BannerSection';
 
 const SECTIONS = [{
     title: "Languages",
@@ -26,7 +26,7 @@ const SECTIONS = [{
 function App() {
     return (
         <div className="general-container">
-            <AboutMeSection/>
+            <BannerSection/>
             <div className="sections-container">
                 {SECTIONS.map( (section, index) => {
                     return (

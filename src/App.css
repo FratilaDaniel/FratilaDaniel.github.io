@@ -219,7 +219,7 @@ html, body, #root, .general-container{
     text-align: center;
 }
 
-/*  about me */
+/*  banner */
 
 .first-name-container{
     background-color: #38ADAD;   
@@ -227,8 +227,9 @@ html, body, #root, .general-container{
 
 .first-name-p{
     margin: 0;
+    margin-left: 10px;
     color: black;
-    font-size: 12rem;
+    font-size: 20vw;
     text-transform: uppercase;
     font-family: monospace;
     letter-spacing: 0.2ch;
@@ -241,7 +242,8 @@ html, body, #root, .general-container{
 
 .last-name-p{
     margin: 0;
-    font-size: 8rem;
+    margin-left: 10px;
+    font-size: 8vw;
     text-transform: uppercase;
     font-family: monospace;
     letter-spacing: 0.2ch;
@@ -334,6 +336,13 @@ html, body, #root, .general-container{
 .tag-container span{
     position: relative;
 }
+
+
+/* about me */
+#about-me-section{
+    margin: 0 5%;
+}
+
 
 
 
