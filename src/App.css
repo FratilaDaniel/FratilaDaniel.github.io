@@ -17,7 +17,41 @@ html, body, #root, .general-container{
 /* Sections */
 .sections-container{
     flex-grow: 1;
+    width: 97.5%;
 }
+
+.section-container{
+    border-radius: 10px;
+    background-color: #191b1b;
+    margin: 0.5%;
+    box-shadow: 5px 10px 10px black;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .sections-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-container{
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 1900px){
+    .section-container{
+        width: 31%;
+    }
+}
+
+
+
+
+
+
+
 
 .language-section-container{
     display: grid;
