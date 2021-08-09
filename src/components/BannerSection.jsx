@@ -9,23 +9,20 @@ function BannerSection(){
             </div>
 
             <div className="name-details-container">
-                    <div className="last-name-container">
-                        <p className="last-name-p">Fratila</p>
-                        <ProfessionSection/>
-                        <AboutMeSection/>
+                <div className="last-name-container">
+                    <p className="last-name-p">Fratila</p>
+                    <ProfessionSection/>
+                    <AboutMeSection/>
+                </div>
+
+
+                <div className="profile-image-section">
+                    <div className="profile-image-container">
+                        <img src="/dani.png" alt="Daniel Fratila"/>
                     </div>
-
-                    {/* <div className="decorations"> */}
-                        <div className="decorative-div">
-                            <div className="image-div">
-                                <img src="/dani.png" alt="Daniel Fratila"/>
-                            </div>
-                        </div>
-                        {/* <div className="decorative-div-2"> random</div> */}
-                    {/* </div> */}
-
+                    <div id="remaining-space-div"></div>
+                </div>
             </div>
-
         </div>
     );
 }

@@ -75,7 +75,7 @@ function ProfessionSection(){
                 </ProfessionDescription>
                 &gt;
             </p>
-            <p>&emsp;Frontend Dev</p>
+            <p id="prof-container">Frontend Dev.</p>
             <p className="tag-container">
                 &lt;/
                 <ProfessionDescription
