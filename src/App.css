@@ -227,9 +227,31 @@ html, body, #root, .general-container{
 }
 
 .project-container{
-    border-radius: 10px;
     margin-top: 5em;
     text-align: center;
+    border-bottom: 2px solid #38ADAD;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+.project-container-content{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.project-container-content-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+}
+
+
+
+.project-container img{
+    width: 128px;
+    height: 128px;
 }
 
 /*  banner */
