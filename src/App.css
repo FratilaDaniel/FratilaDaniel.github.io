@@ -195,35 +195,12 @@ html, body, #root, .general-container{
 
 
 
-/* Workplace */
-.work-container{
-    display: flex;
-}
 
-.workplace-container{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-}
-
-.workplace-container img{
-    width: 33%;
-}
 
 
 /* Projects */
 .projects-section{
     position: relative;
-}
-
-.bkg-img-2{
-    z-index: 1;   
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    margin-left: -5%;
 }
 
 .project-container{

@@ -4,7 +4,7 @@ import SectionContainer from './components/SectionContainer';
 import EducationSection from './components/Education/EducationSection';
 import ContactSection from './components/ContactSection';
 import Footer from "./components/Footer";
-import WorkSection from './components/WorkSection';
+import WorkSection from './components/Work/WorkSection';
 import ProjectsSection from './components/ProjectsSection';
 import BannerSection from './components/BannerSection';
 import TechnologiesSection from './components/Technologies/TechnologiesSection';
