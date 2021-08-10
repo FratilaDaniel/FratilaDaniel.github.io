@@ -37,7 +37,7 @@ function ProjectsSection(){
                             <img src="/technologies/c.png" alt=""/>
                             <div>
                                 <p>{project.description}</p>
-                                <p>Technologies used: <strong>{project.technologies}</strong></p>
+                                <p>Technologies used: <span className="used-tech-span">{project.technologies}</span></p>
                                 <p>View this application deployed on <a href={project.herokuLink}>Heroku</a></p>
                                 <p>View this application's code on <a href={project.githubLink}>Github</a></p>
                             </div>

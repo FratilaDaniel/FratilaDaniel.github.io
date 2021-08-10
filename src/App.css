@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     color: white;
+    scroll-behavior: smooth;
 }
 
 html, body, #root, .general-container{
@@ -220,10 +221,26 @@ html, body, #root, .general-container{
     border-left: 2px solid transparent;
 }
 
+.project-container h3{
+    color: #85EE9C;
+}
+
+.project-container div{
+    
+}
+
 .project-container-content{
     display: flex;
     align-items: center;
     text-align: left;
+}
+
+.project-container-content div{
+    margin-left: 1em;
+}
+
+.project-container-content-reverse div{
+    margin-right: 1em;
 }
 
 .project-container-content-reverse{
@@ -363,6 +380,12 @@ html, body, #root, .general-container{
     margin: 0 5%;
 }
 
+#about-me-section a{
+    color: #38ADAD;
+}
 
 
 
+.used-tech-span{
+    color: #38ADAD;
+}
