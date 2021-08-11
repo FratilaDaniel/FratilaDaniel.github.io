@@ -58,6 +58,8 @@ html, body, #root, .general-container{
     display: grid;
     grid-template-columns: 15% 75%;
     row-gap: 1em;
+    border: 2px solid red;
+    overflow: hidden;
 }
 
 .language-bar-legend{
@@ -357,7 +359,16 @@ html, body, #root, .general-container{
 }
 
 .profession-container #prof-container{
-    margin-left: 4ch;
+    margin-left: 2ch;
+    margin-right: 1ch;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 500px) {
+    .profession-container #prof-container{
+        margin-left: 4ch;
+    }
+    
 }
 
 
