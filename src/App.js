@@ -1,5 +1,5 @@
 import './App.css';
-import LanguagesSection from './components/LanguagesSection';
+import LanguagesSection from './components/Languages/LanguagesSection';
 import SectionContainer from './components/SectionContainer';
 import EducationSection from './components/Education/EducationSection';
 import ContactSection from './components/ContactSection';
