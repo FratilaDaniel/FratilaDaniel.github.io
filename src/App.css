@@ -172,10 +172,6 @@ html, body, #root, .general-container{
     color: #85EE9C;
 }
 
-.project-container div{
-    
-}
-
 .project-container-content{
     display: flex;
     align-items: center;
@@ -202,6 +198,7 @@ html, body, #root, .general-container{
 .project-container img{
     width: 128px;
     height: 128px;
+    border-radius: 10px;
 }
 
 /*  banner */

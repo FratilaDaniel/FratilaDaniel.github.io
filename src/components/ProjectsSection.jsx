@@ -1,24 +1,28 @@
 
 const PROJECTS = [{
     title: "Ines Simonica Landing Page",
+    image: <img src="/projects/lion.jpg" alt="Lion"/>,
     description: "CV page for 3D artist Ines Simonica",
     technologies: "React, Threejs",
     herokuLink: "/#",
     githubLink: "/#",
 }, {
     title: "Self-timing application",
+    image: <img src="/projects/clock.jpg" alt="Clock"/>,
     description: "Web application useful for timing activities, statistics included",
     technologies: "React",
     herokuLink: "/#",
     githubLink: "/#",
 }, {
-    title: "OrangeHub",
-    description: "Amalgamation of multiple ideas, result is similar to a social media website",
-    technologies: "React, Django",
+    title: "Mona Divsa",
+    image: <img src="/projects/monalisa.jpg" alt="Mona Divsa"/>,
+    description: "Web application that transforms a given image into a series of DIVs",
+    technologies: "React",
     herokuLink: "/#",
     githubLink: "/#",
 }, {
     title: "Snake",
+    image: <img src="/projects/snake.jpg" alt="Snake"/>,
     description: "A simple game of snake",
     technologies: "React",
     herokuLink: "/#",
@@ -34,7 +38,7 @@ function ProjectsSection(){
                     <div className="project-container" key={index}>
                         <h3>{project.title}</h3>
                         <div className={index % 2 ? "project-container-content" : "project-container-content-reverse"}>
-                            <img src="/technologies/c.png" alt=""/>
+                            {project.image}
                             <div>
                                 <p>{project.description}</p>
                                 <p>Technologies used: <span className="used-tech-span">{project.technologies}</span></p>
