@@ -29,27 +29,3 @@
     border-radius: 10px;
     padding: 5px;
 }
-
-.tech-image-container:hover::before{
-    content: "aaaa";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: -2em;
-    background-color: grey;
-    border-radius: 10px;
-    text-align: center;
-    z-index: 2;
-}
-
-.tech-image-container:hover::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: -1em;
-    height: 1em;
-    width: 100%;
-    background-color: grey;
-    clip-path: polygon(40% 0, 50% 100%, 60% 0);
-    z-index: 1;
-}
