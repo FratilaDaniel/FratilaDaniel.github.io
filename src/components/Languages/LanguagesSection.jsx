@@ -22,16 +22,16 @@ const LANGUAGES_SPOKEN = [{
 
 const PROFICIENCY_LEGEND = [{
     level: "Basic",
-    alternative: "v"
+    alternative: <img className="language-level-img" src="/levels/low.png" alt="v"/>
 }, {
     level: "Intermediate",
-    alternative: "~"
+    alternative: <img className="language-level-img" src="/levels/tilda.png" alt="~"/>
 }, { 
     level: "Advanced",
-    alternative: "^"
+    alternative: <img className="language-level-img" src="/levels/high.png" alt="^"/>
 }, {
     level: "Proficient",
-    alternative: "/\\"
+    alternative: <img className="language-level-img" src="/levels/star.png" alt="/\"/>
 }];
 
 const BREAK_WIDTH = 350;
