@@ -1,6 +1,6 @@
 import "./languages.css";
 import ProficiencyBar from "../ProficiencyBar";
-import { useRef, useState } from "react";
+import {SizeMe} from "react-sizeme";
 
 const LANGUAGES_SPOKEN = [{
     language: "english",
@@ -34,46 +34,39 @@ const PROFICIENCY_LEGEND = [{
     alternative: "/\\"
 }];
 
+const BREAK_WIDTH = 350;
+
 function LanguagesSection(){
-    const elementRef = useRef(null);
-    const [width, setWidth] = useState(0);
-
-    function handleResize(){
-        if(elementRef.current){
-            console.log(elementRef.current.offsetWidth);
-            setWidth(elementRef.current.offsetWidth);
-        }
-    }
-
-    window.addEventListener("resize", handleResize);
-
     return (
-        <div ref={elementRef} className="language-section-container">
-            <div className={width < 500 ? "language-bar-legend" : "language-bar-legend-wide"}>
-                {PROFICIENCY_LEGEND.map((element, index) => {
+        <SizeMe>{({size}) => { 
+            return <div className="language-section-container">            
+                <div className={size.width < BREAK_WIDTH ? "language-bar-legend" : "language-bar-legend-wide"}>
+                    {PROFICIENCY_LEGEND.map((element, index) => {
+                        return (
+                            <span key={index}>
+                                {size.width < BREAK_WIDTH ? element.alternative : element.level}
+                            </span>
+                        );
+                    })}
+                </div>      
+
+                {LANGUAGES_SPOKEN.map( (element, index) => {
                     return (
-                        <span key={index}>
-                            {width < 500 ? element.alternative : element.level}
-                        </span>
+                        <div key={index} className="grid-language" style={{gridRow: index + 2}}>
+                            {size.width < BREAK_WIDTH? element.alternative :element.language} 
+                        </div>
                     );
                 })}
-            </div>      
-
-            {LANGUAGES_SPOKEN.map( (element, index) => {
-                return (
-                    <div key={index} className="grid-language" style={{gridRow: index + 2}}>
-                        {width < 500? element.alternative :element.language} 
-                    </div>
-                );
-            })}
-            {LANGUAGES_SPOKEN.map( (element, index) => {
-                return (
-                    <div key={index} className="grid-proficiency" style={{gridRow: index + 2}}>
-                        <ProficiencyBar proficiencyPercentage={element.proficiency}/> 
-                    </div>
-                );
-            })}
-        </div>
+                {LANGUAGES_SPOKEN.map( (element, index) => {
+                    return (
+                        <div key={index} className="grid-proficiency" style={{gridRow: index + 2}}>
+                            <ProficiencyBar proficiencyPercentage={element.proficiency}/> 
+                        </div>
+                    );
+                })}
+            </div>
+            }}
+        </SizeMe>
     );
 }
 
