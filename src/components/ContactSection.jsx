@@ -14,10 +14,10 @@ function ContactSection(){
             <p className="contact-info-p">Check out my <a href="https://github.com/FratilaDaniel">Github</a> profile for more awesome projects!</p>
             
             <p className="git-link-images-container">
-                <a href="https://github.com/FratilaDaniel">
+                <a href="https://github.com/FratilaDaniel" aria-label="Github">
                     <GitHubIcon fontSize="large"/>
                 </a>
-                <a href="https://www.linkedin.com/in/daniel-fratila-369910149/">
+                <a href="https://www.linkedin.com/in/daniel-fratila-369910149/" aria-label="LinkedIn">
                     <LinkedInIcon className="contact-li-img" fontSize="large"/>
                 </a>
             </p>
