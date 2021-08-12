@@ -10,7 +10,7 @@ function ContactSection(){
                     LinkedIn
                 </a>
             </p>
-            <p className="contact-info-p">Or email: danfratila1997@gmail.com</p>
+            <p className="contact-info-p">Or email: <span>danfratila1997@gmail.com</span></p>
             <p className="contact-info-p">Check out my <a href="https://github.com/FratilaDaniel">Github</a> profile for more awesome projects!</p>
             
             <p className="git-link-images-container">

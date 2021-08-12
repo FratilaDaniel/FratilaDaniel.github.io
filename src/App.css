@@ -105,6 +105,11 @@ html, body, #root, .general-container{
     font-size: 1.2rem;
 }
 
+.contact-info-p span{
+    color: #38ADAD;
+    font-size: 1.5em;
+}
+
 .contact-info-linkedin{
     display: flex;
     align-items: center;
