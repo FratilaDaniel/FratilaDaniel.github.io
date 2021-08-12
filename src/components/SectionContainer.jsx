@@ -4,11 +4,8 @@ function SectionContainer({title, content}){
         <section className="section-container">
             <h2>{title}</h2>
             <div className="content-wrapper">
-                <div className="content-container">
-                    {content}
-                </div>
+                {content}
             </div>
-            
         </section>
     );
 }

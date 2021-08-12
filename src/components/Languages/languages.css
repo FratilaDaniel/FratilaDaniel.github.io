@@ -1,11 +1,9 @@
-
 .language-section-container{
     display: grid;
     grid-template-columns: 15% 85%;
     row-gap: 1em;
+    width: 100%;
 }
-
-
 
 .language-bar-legend{
     grid-row: 1;

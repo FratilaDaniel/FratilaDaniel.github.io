@@ -18,7 +18,7 @@ html, body, #root, .general-container{
 /* Sections */
 .sections-container{
     flex-grow: 1;
-    width: 96%;
+    width: 96.5%;
 }
 
 .section-container{
@@ -26,7 +26,6 @@ html, body, #root, .general-container{
     background-color: #191b1b;
     margin: 0.5%;
     box-shadow: 5px 10px 10px black;
-    
 }
 
 @media screen and (min-width: 768px) {
@@ -81,13 +80,10 @@ html, body, #root, .general-container{
 .content-wrapper{
     flex: 1;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.content-container{
-    padding: 2em;
-    width: 100%;
-}
 
 .section-container h2{
     margin: 0;
