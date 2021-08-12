@@ -333,6 +333,24 @@ html, body, #root, .general-container{
     color: #38ADAD;
 }
 
+.about-me-p{
+    text-align: justify;
+}
+
+.about-me-p button{
+    background-color: transparent;
+    border: none;
+    color: #38ADAD;
+    font-size: 1rem;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about-me-p button:hover{
+    color: white;
+}
+
 
 
 .used-tech-span{

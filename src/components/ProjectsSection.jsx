@@ -32,7 +32,7 @@ const PROJECTS = [{
 
 function ProjectsSection(){
     return (
-        <div className="projects-section">
+        <div className="projects-section" id="projects">
             {PROJECTS.map( (project, index) => {
                 return (
                     <div className="project-container" key={index}>
