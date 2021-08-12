@@ -9,12 +9,6 @@
     height: 100px;
 }
 
-#technologies-section img:hover{
-    
-    transform: scale(1.1);
-    transition: transform 0.25s ease-in;
-}
-
 .tech-display{
     display: flex;
     flex-wrap: wrap;
@@ -28,4 +22,9 @@
     background-color: rgba(56, 173, 173, 0.35);
     border-radius: 10px;
     padding: 5px;
+}
+
+.tech-image-container:hover{
+    transform: scale(1.1);
+    transition: transform 0.25s ease-in;
 }
