@@ -31,15 +31,15 @@ const PROFICIENCY_LEGEND = [{
     alternative: <img className="language-level-img" src="/levels/high.png" alt="^"/>
 }, {
     level: "Proficient",
-    alternative: <img className="language-level-img" src="/levels/star.png" alt="/\"/>
+    alternative: <img className="language-level-img" src="/levels/star.png" alt=""/>
 }];
 
-const BREAK_WIDTH = 350;
+const BREAK_WIDTH = 550;
 
 function LanguagesSection(){
     return (
         <SizeMe>{({size}) => { 
-            return <div className="language-section-container">            
+            return <div className="language-section-container">        
                 <div className={size.width < BREAK_WIDTH ? "language-bar-legend" : "language-bar-legend-wide"}>
                     {PROFICIENCY_LEGEND.map((element, index) => {
                         return (

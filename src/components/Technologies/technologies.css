@@ -5,6 +5,7 @@
 }
 
 #technologies-section img{
+    border-radius: 10px;
     width: 100px;
     height: 100px;
 }
@@ -21,7 +22,7 @@
     margin: 10px 10px;
     background-color: rgba(56, 173, 173, 0.35);
     border-radius: 10px;
-    padding: 5px;
+    height: 100px;
 }
 
 .tech-image-container:hover{

@@ -9,18 +9,19 @@ function TechnologiesSection(){
                 <div className="tech-image-container"><img src="/technologies/css3.png" alt="CSS3"/></div>
                 <div className="tech-image-container"><img src="/technologies/js.png" alt="Javascript"/></div>
                 <div className="tech-image-container"><img src="/technologies/react.png" alt="React"/></div>
-                <div className="tech-image-container"><img src="/technologies/threejs.png" alt="Three JS"/></div>
-                <div className="tech-image-container"><img src="/technologies/rtl.png" alt="React testing library"/></div>    
-            </div>
+           </div>
         
             <h3>Interested in</h3>
             <div className="tech-display">
+                <div className="tech-image-container"><img src="/technologies/threejs.png" alt="Three JS"/></div>
+                <div className="tech-image-container"><img src="/technologies/rtl.png" alt="React testing library"/></div>    
+ 
                 <div className="tech-image-container"><img src="/technologies/django.png" alt="Django"/></div>
                 <div className="tech-image-container"><img src="/technologies/node.png" alt="Node"/></div>    
                 
                 <div className="tech-image-container"><img src="/technologies/python.png" alt="Python"/></div>
-                <div className="tech-image-container"><img src="/technologies/c++.png" alt="C++"/></div>
-                <div className="tech-image-container"><img src="/technologies/c.png" alt="C"/></div>
+                {/* <div className="tech-image-container"><img src="/technologies/c++.png" alt="C++"/></div>
+                <div className="tech-image-container"><img src="/technologies/c.png" alt="C"/></div> */}
                 
                 <div className="tech-image-container"><img src="/technologies/mysql.png" alt="MySQL"/></div>
                 <div className="tech-image-container"><img src="/technologies/mongo.png" alt="MongoDB"/></div>    

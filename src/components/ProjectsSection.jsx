@@ -1,32 +1,32 @@
 
-const PROJECTS = [{
-    title: "Ines Simonica Landing Page",
-    image: <img src="/projects/lion.jpg" alt="Lion"/>,
-    description: "CV page for 3D artist Ines Simonica",
-    technologies: "React, Threejs",
-    herokuLink: "/#",
-    githubLink: "/#",
-}, {
+const PROJECTS = [ {
     title: "Self-timing application",
     image: <img src="/projects/clock.jpg" alt="Clock"/>,
     description: "Web application useful for timing activities, statistics included",
     technologies: "React",
-    herokuLink: "/#",
-    githubLink: "/#",
+    herokuLink: "https://self-timing-app.herokuapp.com/",
+    githubLink: "https://github.com/FratilaDaniel/ActivityTimer",
 }, {
     title: "Mona Divsa",
     image: <img src="/projects/monalisa.jpg" alt="Mona Divsa"/>,
     description: "Web application that transforms a given image into a series of DIVs",
     technologies: "React",
-    herokuLink: "/#",
-    githubLink: "/#",
+    herokuLink: "https://mona-divsa.herokuapp.com/",
+    githubLink: "https://github.com/FratilaDaniel/MonaDivsa",
 }, {
     title: "Snake",
     image: <img src="/projects/snake.jpg" alt="Snake"/>,
     description: "A simple game of snake",
     technologies: "React",
-    herokuLink: "/#",
-    githubLink: "/#",
+    herokuLink: "https://singleplayer-snake.herokuapp.com/",
+    githubLink: "https://github.com/FratilaDaniel/SinglePlayersSneks",
+}, {
+    title: "Ines Simonica Landing Page",
+    image: <img src="/projects/lion.jpg" alt="Lion"/>,
+    description: "CV page for 3D artist Ines Simonica",
+    technologies: "React, Threejs",
+    herokuLink: "https://ines-simonica.herokuapp.com/",
+    githubLink: "https://github.com/FratilaDaniel/CV-Ines",
 }
 ];
 

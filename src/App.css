@@ -297,9 +297,42 @@ html, body, #root, .general-container{
 
 @media screen and (min-width: 1920px) {
     .profile-image-container{
-        width: 70%;
+        width: 90%;
     }
 }
+
+
+@media screen and (max-width: 550px){
+    .name-details-container{
+        flex-direction: column !important;
+    }
+
+    .profile-image-section{
+        width: 100%;
+    }
+
+    .profile-image-section::after{
+        clip-path: polygon(95.1% 22.5%, -1% 45%, -1% 40%, 95.1% 16.5%, 95.1% 70%, -1% 70%, -1% 65%, 95.1% 65%);
+    }
+}
+
+/* 
+@media screen and (max-width: 800px){
+    .name-details-container{
+        justify-content: flex-end;
+    }
+
+    .profile-image-section{
+        width: 49%;
+        flex: 1;
+        
+        align-items: center;
+    }
+
+    .last-name-container{
+        flex: 0;
+    }
+} */
 
 
 
