@@ -19,7 +19,7 @@ const PROJECTS = [ {
     description: "A simple game of snake",
     technologies: "React",
     herokuLink: "https://singleplayer-snake.herokuapp.com/",
-    githubLink: "https://github.com/FratilaDaniel/SinglePlayersSneks",
+    githubLink: "https://github.com/FratilaDaniel/SinglePlayersSnek",
 }, {
     title: "Ines Simonica Landing Page",
     image: <img src="/projects/lion.jpg" alt="Lion"/>,
