@@ -34,17 +34,18 @@ const PROFICIENCY_LEGEND = [{
     alternative: <img className="language-level-img" src="/levels/star.png" alt="+"/>
 }];
 
-const BREAK_WIDTH = 550;
+const LEVEL_BREAK_WIDTH = 350;
+const LANGUAGE_BREAK_WIDTH = 500;
 
 function LanguagesSection(){
     return (
         <SizeMe>{({size}) => { 
             return <div className="language-section-container">        
-                <div className={size.width < BREAK_WIDTH ? "language-bar-legend" : "language-bar-legend-wide"}>
+                <div className={size.width < LEVEL_BREAK_WIDTH ? "language-bar-legend" : "language-bar-legend-wide"}>
                     {PROFICIENCY_LEGEND.map((element, index) => {
                         return (
                             <span key={index}>
-                                {size.width < BREAK_WIDTH ? element.alternative : element.level}
+                                {size.width < LEVEL_BREAK_WIDTH ? element.alternative : element.level}
                             </span>
                         );
                     })}
@@ -53,7 +54,7 @@ function LanguagesSection(){
                 {LANGUAGES_SPOKEN.map( (element, index) => {
                     return (
                         <div key={index} className="grid-language" style={{gridRow: index + 2}}>
-                            {size.width < BREAK_WIDTH? element.alternative :element.language} 
+                            {size.width < LANGUAGE_BREAK_WIDTH? element.alternative : element.language} 
                         </div>
                     );
                 })}
