@@ -31,7 +31,7 @@ const PROFICIENCY_LEGEND = [{
     alternative: <img className="language-level-img" src="/levels/high.png" alt="^"/>
 }, {
     level: "Proficient",
-    alternative: <img className="language-level-img" src="/levels/star.png" alt=""/>
+    alternative: <img className="language-level-img" src="/levels/star.png" alt="+"/>
 }];
 
 const BREAK_WIDTH = 550;
