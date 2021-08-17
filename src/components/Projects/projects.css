@@ -1,0 +1,46 @@
+.projects-section{
+    position: relative;
+}
+
+.project-container{
+    margin-top: 5em;
+    text-align: center;
+    border-bottom: 2px solid var(--blueish);
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+.project-container h3{
+    color: var(--greenish);
+}
+
+.project-container-content{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.project-container-content div{
+    margin-left: 1em;
+}
+
+.project-container-content-reverse div{
+    margin-right: 1em;
+}
+
+.project-container-content-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+}
+
+.project-container img{
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+}
+
+.used-tech-span{
+    color: var(--blueish);
+}

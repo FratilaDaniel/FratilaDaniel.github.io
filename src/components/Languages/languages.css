@@ -81,7 +81,7 @@
 
 .proficiency-bar{
     height: 100%;
-    background-image: linear-gradient(to right, #0D978D, #85EE9C);
+    background-image: linear-gradient(to right, var(--dark-blueish), var(--greenish));
     border-radius: 10px;
 }
 

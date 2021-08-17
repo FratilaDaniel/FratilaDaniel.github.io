@@ -1,0 +1,25 @@
+#about-me-section{
+    margin: 0 5%;
+}
+
+#about-me-section a{
+    color: var(--blueish);
+}
+
+.about-me-p{
+    text-align: justify;
+}
+
+.about-me-p button{
+    background-color: transparent;
+    border: none;
+    color: var(--blueish);
+    font-size: 1rem;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.about-me-p button:hover{
+    color: white;
+}

@@ -1,0 +1,105 @@
+
+.first-name-container{
+    background-color: var(--blueish);   
+}
+
+.first-name-p{
+    margin: 0;
+    margin-left: 10px;
+    color: black;
+    font-size: 17vw;
+    font-stretch: expanded;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 0.2ch;
+    font-weight: 900;
+}
+
+.last-name-container{
+    flex: 1;
+    background-color: black;
+}
+
+.last-name-p{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 0.2ch;
+    font-weight: 900;
+}
+
+.name-details-container{
+    display: flex;    
+}
+
+
+/* new */
+.profile-image-section{
+    width: 40%;
+    display: flex;
+    background-image: linear-gradient(to right, black 90%, transparent 90%);
+    padding-right: 5%;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.profile-image-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(var(--blueish), var(--greenish) 25%); 
+    clip-path: polygon(-1% -1%, -1% 40%, 101% 15%, 101% 0);
+    z-index: 2;
+}
+
+.profile-image-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    clip-path: polygon(90% 22.5%, -1% 45%, -1% 40%, 90% 17.5%, 90% 70%, -1% 70%, -1% 65%, 90% 65%);
+}
+
+.profile-image-container{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(var(--blueish), var(--greenish) 25%, var(--greenish) 60%, var(--blueish));
+}
+
+.profile-image-container img{
+    margin-bottom: -15px;
+    z-index: 10;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1920px) {
+    .profile-image-container{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .name-details-container{
+        flex-direction: column !important;
+    }
+
+    .profile-image-section{
+        width: 100%;
+    }
+
+    .profile-image-section::after{
+        clip-path: polygon(95.1% 22.5%, -1% 45%, -1% 40%, 95.1% 16.5%, 95.1% 70%, -1% 70%, -1% 65%, 95.1% 65%);
+    }
+}

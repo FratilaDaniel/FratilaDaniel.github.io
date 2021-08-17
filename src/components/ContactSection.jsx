@@ -18,7 +18,7 @@ function ContactSection(){
                     <GitHubIcon fontSize="large"/>
                 </a>
                 <a href="https://www.linkedin.com/in/daniel-fratila-369910149/" aria-label="LinkedIn">
-                    <LinkedInIcon className="contact-li-img" fontSize="large"/>
+                    <LinkedInIcon fontSize="large"/>
                 </a>
             </p>
             

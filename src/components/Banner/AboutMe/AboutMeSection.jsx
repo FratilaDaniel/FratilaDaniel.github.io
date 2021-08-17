@@ -1,3 +1,4 @@
+import "./aboutme.css";
 
 function AboutMeSection(){
 

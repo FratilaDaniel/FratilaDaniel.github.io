@@ -1,3 +1,4 @@
+import "./profession.css";
 import React, {useState, useEffect} from "react";
 import styled, {keyframes} from "styled-components";
 

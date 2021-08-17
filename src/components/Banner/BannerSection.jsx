@@ -1,9 +1,10 @@
-import ProfessionSection from "./ProfessionSection";
-import AboutMeSection from "./AboutMeSection";
+import "./banner.css";
+import ProfessionSection from "./Profession/ProfessionSection";
+import AboutMeSection from "./AboutMe/AboutMeSection";
 
 function BannerSection(){
     return (
-        <div className="about-me-section">
+        <div className="banner-me-section">
             <div className="first-name-container">
                 <p className="first-name-p">Daniel</p>
             </div>
@@ -18,7 +19,7 @@ function BannerSection(){
 
                 <div className="profile-image-section">
                     <div className="profile-image-container">
-                        <img src="/dani.png" alt="Daniel Fratila"/>
+                        <img src="./LandingPage/dani.png" alt="Daniel Fratila"/>
                     </div>
                     <div id="remaining-space-div"></div>
                 </div>
